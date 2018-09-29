@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+}
+
+#editor {
+    min-width: 47vw;
+    height: 80vh;
+    overflow: auto;
+    background-color: #ECF0F1;
+    font-family: $secondary-font;
+    word-spacing: 3px;
+    font-size: 120%;
+    padding: 40px 10px;
+    border: none;
+    line-height: 1.8;
+}
+
+#preview {
+    min-width: 47vw;
+    height: 80vh;
+    overflow: auto;
+    padding: 40px 10px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
